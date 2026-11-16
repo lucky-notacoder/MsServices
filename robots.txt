@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://msservices.co.in/sitemap.xml
