@@ -215,24 +215,40 @@
     "title": "Gator Amphibious RC Car",
     "description": "Gator Amphibious RC Car, 4*4 cm, Hammer Green"
   },
-  {"link": "https://link.amazon/B0dJWlg02",
+  {
+    "link": "https://link.amazon/B0dJWlg02",
     "badge": "Big Billion Days",
     "title": "Longway Mixer grinder for fruit juice and Masala",
     "description": "Long way mixer grinder"
   },
-  {"link":"https://link.amazon/B0d0B8HJA",
-    "badge":"At a discount of 63%",
-    "title":"Cavallo by Linen Shirt",
+  {
+    "link": "https://link.amazon/B0d0B8HJA",
+    "badge": "At a discount of 63%",
+    "title": "Cavallo by Linen Shirt",
     "description": "Cavallo by Linen Club Full Sleeve Solid Regular Fit Linen Casual Shirt"
   },
-  {"link":"https://link.amazon/B0foJlCW7",
-    "badge":"At a discount of 67%",
-    "title":"Crompton LED Light",
+  {
+    "link": "https://link.amazon/B0foJlCW7",
+    "badge": "At a discount of 67%",
+    "title": "Crompton LED Light",
     "description": "Crompton Laser Ray Neo 3-in-1 20 W Batten (Pack of 4)"
   },
-  {"link":"https://link.amazon/B031qbkiL",
-    "badge":"Grab it before offer expires",
-    "title":"Treadmill",
+  {
+    "link": "https://link.amazon/B031qbkiL",
+    "badge": "Grab it before offer expires",
+    "title": "Treadmill",
     "description": "Lifelong FitPro Treadmill with 4 HP Motor, Vibration Plate"
-  }  
+  },
+  {
+    "badge": "Wind cheater",
+    "title": "Chkokko Wind Cheater",
+    "description": "CHKOKKO Windcheater Jacket For Men With Hood UPF 50+ UV Sun Protection",
+    "link": "https://link.amazon/B00Y8bLwm"
+  },
+  {
+    "badge": "Wind cheater",
+    "title": "Chkokko Wind Cheater",
+    "description": "CHKOKKO Windcheater Jacket For Men With Hood UPF 50+ UV Sun Protection",
+    "link": "https://link.amazon/B00Y8bLwm"
+  }
 ]
