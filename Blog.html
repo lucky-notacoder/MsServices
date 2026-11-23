@@ -107,8 +107,24 @@
   <!-- PAGE CONTENT CONTAINER -->
   <main class="page-content-container" id="main-content">
 
-    <div class="blog-corporate-grid">
-      <a class="blog-corporate-card" href="blog-detail.html?blog=epfo-amnesty-2026" data-blog-id="epfo-amnesty-2026">
+    <!-- Search & Category Filters -->
+    <div class="products-filter-bar articles-filter-bar">
+      <div class="search-input-wrap">
+        <input type="text" id="articles-search" class="search-field" placeholder="Search articles, tax guides, circulars..." aria-label="Search curated articles and circulars">
+      </div>
+
+      <div class="filter-pills-row" role="tablist" aria-label="Filter articles by category">
+        <button type="button" class="article-filter-btn product-filter-btn active" data-filter="all">All Articles</button>
+        <button type="button" class="article-filter-btn product-filter-btn" data-filter="tax">Direct Tax &amp; ITR</button>
+        <button type="button" class="article-filter-btn product-filter-btn" data-filter="gst">GST &amp; Indirect Tax</button>
+        <button type="button" class="article-filter-btn product-filter-btn" data-filter="epfo">EPFO &amp; Labour</button>
+        <button type="button" class="article-filter-btn product-filter-btn" data-filter="corporate">Corporate &amp; MCA</button>
+        <button type="button" class="article-filter-btn product-filter-btn" data-filter="finance">Finance &amp; Banking</button>
+      </div>
+    </div>
+
+    <div class="blog-corporate-grid" id="articles-container" aria-label="Articles and circulars directory">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=epfo-amnesty-2026" data-blog-id="epfo-amnesty-2026" data-category="epfo">
         <div>
           <span class="blog-category-tag">EPFO &amp; PF Circulars</span>
           <h2>EPFO Introduces AMNESTY 2026: A Major Relief for Exempted Establishments</h2>
@@ -117,7 +133,7 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=itr-filing-ay-2026-27" data-blog-id="itr-filing-ay-2026-27">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=itr-filing-ay-2026-27" data-blog-id="itr-filing-ay-2026-27" data-category="tax">
         <div>
           <span class="blog-category-tag">Direct Taxation</span>
           <h2>Comprehensive ITR Filing Guide for AY 2026-27</h2>
@@ -126,7 +142,7 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=itr-filing-due-date-ay-2026-27" data-blog-id="itr-filing-due-date-ay-2026-27">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=itr-filing-due-date-ay-2026-27" data-blog-id="itr-filing-due-date-ay-2026-27" data-category="tax">
         <div>
           <span class="blog-category-tag">Statutory Calendar</span>
           <h2>ITR Filing Due Dates &amp; Avoidance of Statutory Penalties</h2>
@@ -135,7 +151,7 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=tax-saving-tips" data-blog-id="tax-saving-tips">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=tax-saving-tips" data-blog-id="tax-saving-tips" data-category="tax">
         <div>
           <span class="blog-category-tag">Tax Advisory</span>
           <h2>Top Tax Saving Strategies for Salaried Executives</h2>
@@ -144,7 +160,16 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=gst-compliance" data-blog-id="gst-compliance">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=new-vs-old-tax-regime" data-blog-id="new-vs-old-tax-regime" data-category="tax">
+        <div>
+          <span class="blog-category-tag">Tax Advisory</span>
+          <h2>New vs Old Tax Regime: In-Depth Comparison &amp; Break-Even Analysis</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Comparative mathematical break-even thresholds for salaried and business taxpayers to choose the most beneficial tax regime under revised slabs.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=gst-compliance" data-blog-id="gst-compliance" data-category="gst">
         <div>
           <span class="blog-category-tag">Indirect Taxation</span>
           <h2>GST Compliance: Essential Updates for Business Owners</h2>
@@ -153,7 +178,25 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=business-incorporation" data-blog-id="business-incorporation">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=gstr-9-annual-return" data-blog-id="gstr-9-annual-return" data-category="gst">
+        <div>
+          <span class="blog-category-tag">Indirect Taxation</span>
+          <h2>GSTR-9 &amp; GSTR-9C Annual Compliance: Complete Reconciliation Checklist</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Statutory guide to reconciling outward supplies, claiming eligible Input Tax Credit (ITC), handling turnover differences, and self-certified reconciliation.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=tds-tcs-provisions-2026" data-blog-id="tds-tcs-provisions-2026" data-category="tax">
+        <div>
+          <span class="blog-category-tag">Direct Taxation</span>
+          <h2>TDS &amp; TCS Compliance Roadmap: Rates, Thresholds &amp; Filings</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Critical guidelines on vendor payments, contractor deductions under Section 194C/194J, and avoiding higher deduction rates under Section 206AB.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=business-incorporation" data-blog-id="business-incorporation" data-category="corporate">
         <div>
           <span class="blog-category-tag">Corporate Law (MCA)</span>
           <h2>How to Choose the Right Business Structure in India</h2>
@@ -162,7 +205,34 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=financial-planning" data-blog-id="financial-planning">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=llp-annual-filing" data-blog-id="llp-annual-filing" data-category="corporate">
+        <div>
+          <span class="blog-category-tag">Corporate Law (MCA)</span>
+          <h2>LLP Annual Compliance: Form 11 and Form 8 Mandatory Filings</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Critical deadlines for MCA V3 compliance, statutory disclosures, digital signature requirements, and the revised graded penalty framework for LLPs.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=section-43bh-msme-compliance" data-blog-id="section-43bh-msme-compliance" data-category="finance">
+        <div>
+          <span class="blog-category-tag">Statutory Compliance</span>
+          <h2>Section 43B(h) MSME 45-Day Payment Rule: Practical Guide for Buyers</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Key implications of Section 43B(h) on income tax deductibility, vendor Udyam classification, written payment agreements, and financial year-end provisions.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=cma-data-bank-loans" data-blog-id="cma-data-bank-loans" data-category="finance">
+        <div>
+          <span class="blog-category-tag">Project Finance &amp; CMA</span>
+          <h2>Preparing CMA Data for Bank Loan Sanctions: What Bankers Evaluate</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Comprehensive guide to structuring operating statements, fund flow analysis, current ratio projections, and DSCR metrics for term loan approvals.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=financial-planning" data-blog-id="financial-planning" data-category="tax">
         <div>
           <span class="blog-category-tag">Presumptive Tax</span>
           <h2>Understanding Section 44ADA Presumptive Tax for Professionals</h2>
@@ -171,7 +241,7 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=income-tax-filing" data-blog-id="income-tax-filing">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=income-tax-filing" data-blog-id="income-tax-filing" data-category="tax">
         <div>
           <span class="blog-category-tag">Filing Rectification</span>
           <h2>Common Tax Filing Errors That Trigger Scrutiny Notices</h2>
@@ -180,7 +250,34 @@
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
 
-      <a class="blog-corporate-card" href="blog-detail.html?blog=nse-ipo" data-blog-id="nse-ipo">
+      <a class="blog-corporate-card" href="blog-detail.html?blog=accounting-internal-controls" data-blog-id="accounting-internal-controls" data-category="finance">
+        <div>
+          <span class="blog-category-tag">Accounting &amp; Audit</span>
+          <h2>Bookkeeping Best Practices &amp; Financial Controls for Growing Enterprises</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Establishing systematic ledgers, weekly bank reconciliations, automated payroll deductions, and clean audit trails for statutory compliance.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=epfo-withdrawal-changes" data-blog-id="epfo-withdrawal-changes" data-category="epfo">
+        <div>
+          <span class="blog-category-tag">EPFO &amp; PF Circulars</span>
+          <h2>EPFO Withdrawal Rule Changes &amp; Simplified Claim Categories</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Key reforms in EPFO partial withdrawals, 12-month minimum service requirement, 25% minimum balance rule, and revised settlement timelines.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=startup-funding" data-blog-id="startup-funding" data-category="corporate">
+        <div>
+          <span class="blog-category-tag">Startups &amp; Capital</span>
+          <h2>Startup India Seed Fund &amp; Capital Structuring for Founders</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">DPIIT startup recognition benefits, Seed Fund Scheme eligibility, compliance milestones, and debt-equity structuring for emerging ventures.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=nse-ipo" data-blog-id="nse-ipo" data-category="finance">
         <div>
           <span class="blog-category-tag">Capital Markets</span>
           <h2>NSE IPO: Critical Metrics for Investors &amp; Corporates</h2>
@@ -188,7 +285,19 @@
         </div>
         <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
       </a>
+
+      <a class="blog-corporate-card" href="blog-detail.html?blog=world-bank-climate-finance-target" data-blog-id="world-bank-climate-finance-target" data-category="finance">
+        <div>
+          <span class="blog-category-tag">Global Finance</span>
+          <h2>World Bank Climate Finance Targets &amp; ESG Trends for Enterprises</h2>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">Analysis of international multilateral climate commitments, ESG disclosure requirements, and implications for domestic infrastructure lending.</p>
+        </div>
+        <span class="blog-read-indicator">Read Full Analysis &rarr;</span>
+      </a>
     </div>
+
+    <!-- Articles Pagination (Same style & functionality as supplies) -->
+    <nav id="articles-pagination" class="pagination-row" aria-label="Articles pagination" hidden></nav>
   </main>
 
   <!-- FOOTER -->
@@ -251,5 +360,6 @@
   </a>
 
   <script src="script.js"></script>
+  <script src="articles-loader.js"></script>
 </body>
 </html>
